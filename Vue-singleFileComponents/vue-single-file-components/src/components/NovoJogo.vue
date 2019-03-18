@@ -1,5 +1,6 @@
 <template>
     <div>
+        
         <button class="btn btn-primary" @click="criarNovoJogo" ref="button">Novo jogo</button>
         <placar-modal :time-casa="timeCasa" :time-fora="timeFora" ref="modal"></placar-modal>
     </div>
